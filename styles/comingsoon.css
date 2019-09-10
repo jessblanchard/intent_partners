@@ -146,7 +146,7 @@ h3{
   display:grid;
   grid-gap: 0px;
   grid-template-columns: repeat(1,1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: auto;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -172,51 +172,43 @@ form{
   grid-column: 1/span 1;
   grid-row: 1;
   justify-self:left;
-
+  font-family: Yantramanav;
+  font-size: 1em;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-align: left;
 
 }
 
 .emailsubmission{
   display:grid;
   grid-gap: 0px;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: auto 80px 50px;
   grid-template-rows: repeat(2, 1fr);
 }
 
 .submission-box{
   grid-column: 1/span 3;
   grid-row: 1;
+  margin-bottom:20px;
 }
 
 .subscribe-button-text{
   grid-column: 2/span 1;
   grid-row: 2;
+  font-family: Yantramanav;
+  font-size: 1em;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-align: left;
 }
 
 .subscribe-button{
   grid-column: 3/span 1;
   grid-row: 2;
+  cursor:pointer;
+  align-self: center;
 }
-
-/* .youremail{
-  grid-column: 1/span 1;
-  grid-row: 1;
-}
-
-.emailsubmission{
-  grid-column: 1/span 3;
-  grid-row: 2;
-}
-
-.subscribe-button-text{
-  grid-column: 2/span 1;
-  grid-row: 3;
-}
-
-.subscribe-button{
-  grid-column: 3/span 1;
-  grid-row: 3;
-} */
 
 textarea {
   resize: none;
@@ -225,12 +217,34 @@ textarea {
   border: 1px solid #CDCDCD;
   box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.50);
   border-radius: 3px;
+  font-family: Yantramanav;
+  color: #0D5A78;
+
 }
 
 button{
   border-radius: 100%;
   height:50px;
   width:50px;
-  outline: none;
+  border: none;
+  background-color:#0D5A78;
+  color:#ffffff;
 
+}
+
+a{
+  color: #ffffff;
+}
+
+.contact-message{
+  font-family: Yantramanav;
+  font-size: 1em;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-align: left;
+  line-height: 1em;
+  padding-top: 10px;
+  padding-bottom:10px;
+  justify-self: center;
+  align-self: center;
 }
