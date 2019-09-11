@@ -3,6 +3,85 @@ body, html {
   margin: 0;
 }
 
+/* yantramanav-100 - latin */
+@font-face {
+  font-family: 'Yantramanav';
+  font-style: normal;
+  font-weight: 100;
+  src: url('../fonts/yantramanav-v5-latin-100.eot'); /* IE9 Compat Modes */
+  src: local('Yantramanav Thin'), local('Yantramanav-Thin'),
+       url('../fonts/yantramanav-v5-latin-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/yantramanav-v5-latin-100.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/yantramanav-v5-latin-100.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/yantramanav-v5-latin-100.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/yantramanav-v5-latin-100.svg#Yantramanav') format('svg'); /* Legacy iOS */
+}
+/* yantramanav-300 - latin */
+@font-face {
+  font-family: 'Yantramanav';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/yantramanav-v5-latin-300.eot'); /* IE9 Compat Modes */
+  src: local('Yantramanav Light'), local('Yantramanav-Light'),
+       url('../fonts/yantramanav-v5-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/yantramanav-v5-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/yantramanav-v5-latin-300.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/yantramanav-v5-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/yantramanav-v5-latin-300.svg#Yantramanav') format('svg'); /* Legacy iOS */
+}
+/* yantramanav-regular - latin */
+@font-face {
+  font-family: 'Yantramanav';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/yantramanav-v5-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Yantramanav Regular'), local('Yantramanav-Regular'),
+       url('../fonts/yantramanav-v5-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/yantramanav-v5-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/yantramanav-v5-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/yantramanav-v5-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/yantramanav-v5-latin-regular.svg#Yantramanav') format('svg'); /* Legacy iOS */
+}
+/* yantramanav-500 - latin */
+@font-face {
+  font-family: 'Yantramanav';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/yantramanav-v5-latin-500.eot'); /* IE9 Compat Modes */
+  src: local('Yantramanav Medium'), local('Yantramanav-Medium'),
+       url('../fonts/yantramanav-v5-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/yantramanav-v5-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/yantramanav-v5-latin-500.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/yantramanav-v5-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/yantramanav-v5-latin-500.svg#Yantramanav') format('svg'); /* Legacy iOS */
+}
+/* yantramanav-700 - latin */
+@font-face {
+  font-family: 'Yantramanav';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/yantramanav-v5-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Yantramanav Bold'), local('Yantramanav-Bold'),
+       url('../fonts/yantramanav-v5-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/yantramanav-v5-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/yantramanav-v5-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/yantramanav-v5-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/yantramanav-v5-latin-700.svg#Yantramanav') format('svg'); /* Legacy iOS */
+}
+/* yantramanav-900 - latin */
+@font-face {
+  font-family: 'Yantramanav';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/yantramanav-v5-latin-900.eot'); /* IE9 Compat Modes */
+  src: local('Yantramanav Black'), local('Yantramanav-Black'),
+       url('../fonts/yantramanav-v5-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/yantramanav-v5-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/yantramanav-v5-latin-900.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/yantramanav-v5-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/yantramanav-v5-latin-900.svg#Yantramanav') format('svg'); /* Legacy iOS */
+}
+
 h1{
   font-family: Yantramanav;
   font-size: 1.5em;
