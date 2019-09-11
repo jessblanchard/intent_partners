@@ -243,28 +243,28 @@ a{
   display:grid;
   grid-gap: 0px;
   grid-template-columns: auto 80px 50px;
-  /* grid-template-rows: repeat(2, 1fr); */
+  grid-template-rows: repeat(2, 1fr);
 }
 
 .submission-box{
-  grid-column: 1/span 1;
+  grid-column: 1/span 3;
   grid-row: 1;
   margin-bottom:5px;
 }
 
 .subscribe-button-text{
   grid-column: 2/span 1;
-  grid-row: 1;
+  grid-row: 2;
   font-family: Yantramanav;
   font-size: 1em;
-  color: #ffffff;
+  color: #0D5A78;
   letter-spacing: 0;
   text-align: left;
 }
 
 .subscribe-button{
   grid-column: 3/span 1;
-  grid-row: 1;
+  grid-row: 2;
   cursor:pointer;
   align-self: center;
 }
@@ -282,6 +282,45 @@ a{
   padding-bottom:10px;
   justify-self: center;
   align-self: center;
+}
+
+
+
+@media screen and (min-width: 568px){
+  .logo{
+    width:20%;
+  }
+
+  .emailsubmission{
+    display:grid;
+    grid-gap: 0px;
+    grid-template-columns: auto 80px 50px;
+    /* grid-template-rows: repeat(2, 1fr); */
+  }
+
+  .submission-box{
+    grid-column: 1/span 1;
+    grid-row: 1;
+    margin-bottom:5px;
+  }
+
+  .subscribe-button-text{
+    grid-column: 2/span 1;
+    grid-row: 1;
+    font-family: Yantramanav;
+    font-size: 1em;
+    color: #0D5A78;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  .subscribe-button{
+    grid-column: 3/span 1;
+    grid-row: 1;
+    cursor:pointer;
+    align-self: center;
+  }
+
 }
 
 
@@ -334,14 +373,34 @@ a{
       grid-column: 2/span 2;
   }
 
-}
-
-@media screen and (min-width: 568px){
-  .logo{
-    width:20%;
+  .emailsubmission{
+    display:grid;
+    grid-gap: 0px;
+    grid-template-columns: auto 80px 50px;
+    grid-template-rows: repeat(2, 1fr);
   }
 
+  .submission-box{
+    grid-column: 1/span 3;
+    grid-row: 1;
+    margin-bottom:5px;
+  }
 
+  .subscribe-button-text{
+    grid-column: 2/span 1;
+    grid-row: 2;
+    font-family: Yantramanav;
+    font-size: 1em;
+    color: #0D5A78;
+    letter-spacing: 0;
+    text-align: left;
+  }
 
+  .subscribe-button{
+    grid-column: 3/span 1;
+    grid-row: 2;
+    cursor:pointer;
+    align-self: center;
+  }
 
 }
