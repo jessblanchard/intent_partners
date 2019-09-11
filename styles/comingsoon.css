@@ -107,7 +107,9 @@ h2{
   padding-bottom:10px;
   justify-self: center;
   align-self: center;
+  font-weight: 300;
 }
+
 
 h3{
   font-family: Yantramanav;
@@ -121,6 +123,8 @@ h3{
   justify-self: center;
   align-self: center;
 }
+
+
 
 @media screen and (min-width: 991px){
   h1{
@@ -200,7 +204,7 @@ h3{
   margin-left: 10%;
   margin-right:10%;
   grid-row: 4;
-  justify-self: center;
+  justify-self: left;
 }
 
 .sign-up-message{
@@ -240,7 +244,7 @@ form{
   margin-left: 10%;
   margin-right:10%;
   justify-self: center;
-  padding-top: 10px;
+  /* padding-top: 10px; */
   padding-bottom:10px;
   justify-self: center;
   align-self: center;
@@ -256,6 +260,7 @@ form{
   color: #ffffff;
   letter-spacing: 0;
   text-align: left;
+  font-weight: 200;
 
 }
 
@@ -313,6 +318,7 @@ button{
 
 a{
   color: #ffffff;
+  font-weight: bold;
 }
 
 .contact-message{
