@@ -125,6 +125,165 @@ h3{
 }
 
 
+form{
+  margin-left: 10%;
+  margin-right:10%;
+  justify-self: center;
+  /* padding-top: 10px; */
+  padding-bottom:10px;
+  justify-self: center;
+  align-self: center;
+  width:100%;
+}
+
+textarea {
+  resize: none;
+  /* width:300px; */
+  background: #F0F3F2;
+  border: 1px solid #CDCDCD;
+  box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.50);
+  border-radius: 3px;
+  font-family: Yantramanav;
+  color: #0D5A78;
+
+}
+
+button{
+  border-radius: 100%;
+  height:50px;
+  width:50px;
+  border: none;
+  background-color:#0D5A78;
+  color:#ffffff;
+
+}
+
+a{
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.bgimg {
+  background-image: url('../images/abstract-painting-art-artistic-1255372.jpeg');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  /* color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1em; */
+  display:grid;
+  grid-gap: 0px;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(8, 1fr)
+}
+
+.logo{
+  width:40%;
+  margin:10px;
+  /* padding:30px; */
+  grid-column: 2/span 2;
+  grid-row: 2;
+  justify-self: center;
+  align-self: center;
+}
+
+
+.title{
+  grid-column: 1/span 4;
+  margin-left: 10%;
+  margin-right:10%;
+  grid-row: 4;
+  justify-self: left;
+}
+
+.sign-up-message{
+  grid-column: 1/span 4;
+  margin-left: 10%;
+  margin-right:10%;
+  grid-row: 5;
+  justify-self: center;
+}
+
+.contact-message{
+  grid-column: 1/span 4;
+  margin-left: 10%;
+  margin-right:10%;
+  grid-row: 7;
+  justify-self: center;
+}
+
+.subscription{
+  grid-column: 1/span 4;
+  grid-row: 6;
+  display:grid;
+  grid-gap: 0px;
+  grid-template-columns: repeat(1,1fr);
+  grid-template-rows: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+
+.formtitle{
+  grid-column: 1/span 1;
+  grid-row: 1;
+  justify-self:left;
+  font-family: Yantramanav;
+  font-size: 1em;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-align: left;
+  font-weight: 200;
+
+}
+
+.emailsubmission{
+  display:grid;
+  grid-gap: 0px;
+  grid-template-columns: auto 80px 50px;
+  /* grid-template-rows: repeat(2, 1fr); */
+}
+
+.submission-box{
+  grid-column: 1/span 1;
+  grid-row: 1;
+  margin-bottom:5px;
+}
+
+.subscribe-button-text{
+  grid-column: 2/span 1;
+  grid-row: 1;
+  font-family: Yantramanav;
+  font-size: 1em;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.subscribe-button{
+  grid-column: 3/span 1;
+  grid-row: 1;
+  cursor:pointer;
+  align-self: center;
+}
+
+
+
+.contact-message{
+  font-family: Yantramanav;
+  font-size: 1em;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-align: left;
+  line-height: 1em;
+  padding-top: 10px;
+  padding-bottom:10px;
+  justify-self: center;
+  align-self: center;
+}
+
 
 @media screen and (min-width: 991px){
   h1{
@@ -166,170 +325,23 @@ h3{
     justify-self: center;
     align-self: center;
   }
-}
 
-.bgimg {
-  background-image: url('../images/abstract-painting-art-artistic-1255372.jpeg');
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  /* color: white;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 1em; */
-  display:grid;
-  grid-gap: 0px;
-  grid-template-columns: repeat(4,1fr);
-  grid-template-rows: repeat(8, 1fr)
-}
-
-.logo{
-  width:40%;
-  /* margin-top: 100px;
-  padding:30px; */
-  grid-column: 2/span 2;
-  grid-row: 2;
-  justify-self: center;
-  align-self: center;
-}
-
-@media screen and (min-width: 991px){
   .logo{
     width:25%;
   }
-}
 
-.title{
-  grid-column: 1/span 4;
-  margin-left: 10%;
-  margin-right:10%;
-  grid-row: 4;
-  justify-self: left;
-}
-
-.sign-up-message{
-  grid-column: 1/span 4;
-  margin-left: 10%;
-  margin-right:10%;
-  grid-row: 5;
-  justify-self: center;
-}
-
-.contact-message{
-  grid-column: 1/span 4;
-  margin-left: 10%;
-  margin-right:10%;
-  grid-row: 7;
-  justify-self: center;
-}
-
-.subscription{
-  grid-column: 1/span 4;
-  grid-row: 6;
-  display:grid;
-  grid-gap: 0px;
-  grid-template-columns: repeat(1,1fr);
-  grid-template-rows: auto;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-@media screen and (min-width: 991px){
   .subscription{
       grid-column: 2/span 2;
   }
-}
-
-form{
-  margin-left: 10%;
-  margin-right:10%;
-  justify-self: center;
-  /* padding-top: 10px; */
-  padding-bottom:10px;
-  justify-self: center;
-  align-self: center;
-  width:100%;
-}
-
-.formtitle{
-  grid-column: 1/span 1;
-  grid-row: 1;
-  justify-self:left;
-  font-family: Yantramanav;
-  font-size: 1em;
-  color: #ffffff;
-  letter-spacing: 0;
-  text-align: left;
-  font-weight: 200;
 
 }
 
-.emailsubmission{
-  display:grid;
-  grid-gap: 0px;
-  grid-template-columns: auto 80px 50px;
-  grid-template-rows: repeat(2, 1fr);
-}
+@media screen and (min-width: 568px){
+  .logo{
+    width:20%;
+  }
 
-.submission-box{
-  grid-column: 1/span 3;
-  grid-row: 1;
-  margin-bottom:20px;
-}
 
-.subscribe-button-text{
-  grid-column: 2/span 1;
-  grid-row: 2;
-  font-family: Yantramanav;
-  font-size: 1em;
-  color: #ffffff;
-  letter-spacing: 0;
-  text-align: left;
-}
 
-.subscribe-button{
-  grid-column: 3/span 1;
-  grid-row: 2;
-  cursor:pointer;
-  align-self: center;
-}
 
-textarea {
-  resize: none;
-  /* width:300px; */
-  background: #F0F3F2;
-  border: 1px solid #CDCDCD;
-  box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.50);
-  border-radius: 3px;
-  font-family: Yantramanav;
-  color: #0D5A78;
-
-}
-
-button{
-  border-radius: 100%;
-  height:50px;
-  width:50px;
-  border: none;
-  background-color:#0D5A78;
-  color:#ffffff;
-
-}
-
-a{
-  color: #ffffff;
-  font-weight: bold;
-}
-
-.contact-message{
-  font-family: Yantramanav;
-  font-size: 1em;
-  color: #ffffff;
-  letter-spacing: 0;
-  text-align: left;
-  line-height: 1em;
-  padding-top: 10px;
-  padding-bottom:10px;
-  justify-self: center;
-  align-self: center;
 }
